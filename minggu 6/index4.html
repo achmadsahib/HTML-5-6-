@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="shortcut icon" href="/20221014_184750.ico" type="image/x-icon">
+    <link rel="icon" href="/20221014_184750.ico" type="image/x-icon">
+<title>My Company</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+	* {
+	  box-sizing: border-box;
+	}
+
+	body {
+	  font-family: Arial, Helvetica, sans-serif;
+	}
+
+	/* Style the header */
+	header {
+	  background-color: #666;
+	  padding: 30px;
+	  text-align: center;
+	  font-size: 30px;
+	  color: white;
+	}
+
+	/* Create two columns/boxes that floats next to each other */
+	nav {
+	  float: left;
+	  width: 25%;
+	  background: #fff;
+	  padding: 20px;
+	}
+
+	/* Style the list inside the menu */
+	nav ul {
+	  list-style-type: none;
+	  padding: 0;
+	}
+
+	article {
+	  float: left;
+	  padding: 20px;
+	  width: 75%;
+	  background-color: #f1f1f1;
+	}
+
+	/* Clear floats after the columns */
+	section::after {
+	  content: "";
+	  display: table;
+	  clear: both;
+	}
+
+	/* Style the footer */
+	footer {
+	  background-color: #777;
+	  padding: 10px;
+	  text-align: center;
+	  color: white;
+	}
+
+	/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+	@media (max-width: 600px) {
+	  nav, article {
+		width: 100%;
+		height: auto;
+	  }
+	}
+	</style>
+</head>
+	<body>
+		<header>
+		  <img src="20221014_184750.jpg" width="250" height="200"
+		  style="border-radius: 100%;">
+		  <h1>PT.Barokah Mandiri Jaya</h1>
+		  
+		</header>
+
+		<section>
+		  <nav>
+			<ul>
+			  <li><a href="index4.html">Home</a></li>
+			  <li><a href="my cv.pdf">Download</a></li>
+			  <li><a href="index2.html">Contact</a></li>
+			  <li><a href="index3.html">About Me</a></li>
+			</ul>
+		  </nav>
+		  
+		  <article>
+			<h1>Overview My Company</h1>
+			<p>Kami adalah perusahaan yang bergerak dalam bidang ekspor-impor khususnya rempah-rempah.</p>
+			<table border="1" width="100%">
+				<thead>
+					<tr>
+						<th>Barang Impor</th>
+						<th>Barang Ekspor</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>
+							<ul>
+								<li>Biji Selasih (Pakistan)</li>
+								<li>Biji Kelabet (India)</li>
+								<li>Jintan Hitam (Euthopia)</li>
+							</ul>
+						</td>
+						<td>
+							<ul>
+								<li>Cengkeh (Indonesia)</li>
+								<li>Cabe (Indonesia)</li>
+							</ul>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		  </article>
+		</section>
+
+		<footer>
+		  <p>copyright &copy; 2022 PT.Barokah Mandiri Jaya</p>
+		</footer>
+	</body>
+</html>
